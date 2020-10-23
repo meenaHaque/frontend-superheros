@@ -1,24 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+const superHeros = [
+  {
+    id: 1,
+    name: "Wonderwoman",
+    description: "Can be invisible"
+  },
+  {
+    id: 2,
+    name: "Spiderman",
+    description: "Can climb walls"
+  }
+]
+
+
+// function App() {
+//   return (
+//     <div className="App">
+//       {superHeros.map(hero => {
+//          return <h1>{hero.name}</h1>
+//       })}
+//     </div>
+//   );
+// }
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ol>
+      {superHeros.map(hero => {
+         return <li>{hero.name}</li>
+      })}
+      </ol>
     </div>
   );
 }
