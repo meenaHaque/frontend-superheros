@@ -1,4 +1,4 @@
-const superHeroes = [
+const superHeros = [
     {
       id: 1,
       name: "Wonderwoman",
@@ -11,4 +11,4 @@ const superHeroes = [
     }
   ]
 
-export default superHeroes
+export default superHeros
