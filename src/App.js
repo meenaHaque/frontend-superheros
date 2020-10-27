@@ -1,13 +1,13 @@
 import React from 'react';
-import superHeros from './superHeros'
+import superheros from './superheros'
 
 
 function App() {
   return (
     <div className="App">
       <ol>
-      {superHeros.map(hero => {
-         return <li style={{color:"red", fontSize: "16px", padding: "10px 2px"}}>{hero.name} - {hero.description}</li>
+      {superheros.map(hero => {
+         return <li style={{color:"green", fontSize: "16px", padding: "10px 2px"}}>{hero.name} - {hero.description}</li>
       })}
       </ol>
     </div>
