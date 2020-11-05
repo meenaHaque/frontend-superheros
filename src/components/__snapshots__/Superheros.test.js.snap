@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Superheroes component matches the superheroes snapshot 1`] = `
+<ol>
+  <li
+    style={
+      Object {
+        "color": "green",
+        "fontSize": "16px",
+        "padding": "10px 2px",
+      }
+    }
+  >
+    ANT-MAN
+     - 
+    Ability to shrink to sub-microscopic size
+  </li>
+  <li
+    style={
+      Object {
+        "color": "green",
+        "fontSize": "16px",
+        "padding": "10px 2px",
+      }
+    }
+  >
+    BATWOMAN
+     - 
+    Highly skilled martial artis
+  </li>
+  <li
+    style={
+      Object {
+        "color": "green",
+        "fontSize": "16px",
+        "padding": "10px 2px",
+      }
+    }
+  >
+    CATWOMAN
+     - 
+    Skilled gymnast
+  </li>
+  <li
+    style={
+      Object {
+        "color": "green",
+        "fontSize": "16px",
+        "padding": "10px 2px",
+      }
+    }
+  >
+    IRON MAN
+     - 
+    Proficient scientist and engineer
+  </li>
+  <li
+    style={
+      Object {
+        "color": "green",
+        "fontSize": "16px",
+        "padding": "10px 2px",
+      }
+    }
+  >
+    BLACK PANTHER
+     - 
+    Superhuman strength, speed, reflexes
+  </li>
+  <li
+    style={
+      Object {
+        "color": "green",
+        "fontSize": "16px",
+        "padding": "10px 2px",
+      }
+    }
+  >
+    CAPTAIN AMERICA
+     - 
+    Agility, strength, speed, endurance
+  </li>
+</ol>
+`;
