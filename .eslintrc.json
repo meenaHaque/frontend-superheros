@@ -1,41 +1,21 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true,
-        "jest/globals": true
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true,
-            "modules": true
-        },
-        "ecmaVersion": 12,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react",
-        "jest"
-    ],
-    "rules": {
-        "indent": [
-            2,
-            2
-        ],
-        "quotes": [
-            2,
-            "single"
-        ],
-        "linebreak-style": [
-            2,
-            "unix"
-        ],
-        "semi": [
-            2,
-            "always"
-        ]
-    }
+	"env": {
+		"browser": true
+	},
+	"extends": ["eslint:recommended", "plugin:react/recommended"],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true,
+			"modules": true
+		},
+		"ecmaVersion": 6,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "jest"],
+	"rules": {
+		"indent": ["error", 2],
+		"quotes": [2, "single"],
+		"linebreak-style": [2, "unix"],
+		"semi": [2, "always"]
+	}
 }
