@@ -1,5 +1,5 @@
 import React from "react";
-import superheros from "../../superheros";
+import superheros from "../superheros";
 
 const Superheros = () => {
 	const listStyles = {
