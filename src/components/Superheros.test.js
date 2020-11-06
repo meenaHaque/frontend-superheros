@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import  { render }from '@testing-library/react';
-import Superheros from '../components/Superheros';
+import { render } from '@testing-library/react';
+import Superheros from './Superheros';
 
 describe('Superheroes component', () => {
   test('matches the superheroes snapshot', () => {
-    const component = renderer.create(<Superheros/>);
+    const component = renderer.create(<Superheros />);
     const tree = component.toJSON();
 
     expect(tree).toMatchSnapshot();
@@ -17,7 +17,3 @@ describe('Superheroes component', () => {
     expect(batwoman).toBeInTheDocument();
   });
 });
-
-
-
-  

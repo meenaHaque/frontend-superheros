@@ -1,14 +1,13 @@
 import React from "react";
 import superheros from "../superheros";
 
-const Superheros = () => {
-	const listStyles = {
-		color: "green",
-		fontSize: "16px",
-		padding: "10px 2px",
-  },
-  
-	return (
+const listStyles = {
+  color: "green",
+  fontSize: "16px",
+  padding: "10px 2px",
+},
+
+const Superheros = () => (
 		<ol>
 			<h1>Awesome Superheros</h1>
 			{superheros.map((hero) => {
@@ -20,6 +19,5 @@ const Superheros = () => {
 			})}
 		</ol>
 	);
-};
 
 export default Superheros;
