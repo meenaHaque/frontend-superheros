@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-//import superheros from "../Superheros";
 
 const listStyles = {
 	color: "green",
@@ -13,8 +12,8 @@ const Superheros = () => {
 	useEffect(() => {
 		fetch("http://localhost:3001/api/v1/superheros")
 			.then((response) => response.json())
-			.then((foo) => {
-				setSuperheros(foo);
+			.then((data) => {
+				setSuperheros(data);
 			});
 	});
 
